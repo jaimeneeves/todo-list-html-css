@@ -1,0 +1,146 @@
+:root {
+  --Color-Gray-100: #F2F2F2;
+  --Color-Gray-200: #D9D9D9;
+  --Color-Gray-300: #808080;
+  --Color-Gray-400: #333333;
+  --Color-Gray-500: #262626;
+  --Color-Gray-600: #1A1A1A;
+  --Color-Gray-700: #0D0D0D;
+  --Color-Purple: #8284FA;
+  --Color-PurpleDark: #5E60CE;
+  --Color-Blue: #4EA8DE;
+  --Color-Blue-Dark: #1E6F9F;
+  --Color-Danger: #E25858;
+
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-large: 16px;
+  
+  --radius-base: 8px;
+
+  --space-sm: 8px;
+  --space-base: 16px;
+}
+
+/* Task */
+.task {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-base);
+}
+.task-item {
+  display: flex;
+  gap: 12px;
+  padding: var(--space-base);
+  background-color: var(--Color-Gray-500);
+  border-radius: var(--radius-base);
+}
+.task-item.checked .task-item-description {
+  color: var(--Color-Gray-300);
+  text-decoration: line-through;
+}
+
+.task-item-checkbox {
+  display: block;
+  width: 40px;
+}
+
+.task-item-description {
+  color: var(--Color-Gray-100);
+  font-size: var(--font-size-base);
+}
+
+.task-item-actions svg {
+  cursor: pointer;
+  color: var(--Color-Gray-300);
+}
+
+.task-item-actions svg:hover {
+  color: var(--Color-Danger);
+}
+
+/* Input */
+
+.input {
+  display: block;
+  width: 100%;
+  outline: none;
+  padding: var(--space-base);
+  background-color: var(--Color-Gray-500);
+  border: 1px solid var(--Color-Gray-500);
+  color: var(--Color-Gray-300);
+  font-size: var(--font-size-large);
+  border-radius: var(--radius-base);
+}
+
+.input:focus {
+  border: 1px solid var(--Color-PurpleDark);
+  color: var(--Color-Gray-100);
+}
+
+.input-checkbox {
+  position: relative;
+  cursor: pointer;
+  width: 0;
+}
+
+/* Input Checkbox */
+
+.input-checkbox[type=checkbox]:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  border: 2px solid var(--Color-Blue);
+  background-color: var(--Color-Gray-500);
+  border-radius: 50%;
+}
+
+.input-checkbox[type=checkbox]:checked:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background-color: var(--Color-PurpleDark);
+  border: 2px solid var(--Color-PurpleDark);
+  border-radius: 50%;
+}
+
+.input-checkbox[type=checkbox]:checked:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  border: solid var(--Color-Gray-100);
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 3.9px;
+  left: 6.9px;
+}
+
+/* Button */
+
+.btn-primary {
+  display: flex;
+  gap: 8px;
+  padding: var(--space-base);
+  border: none;
+  background-color: var(--Color-Blue-Dark);
+  color: var(--Color-Gray-100);
+  font-size: var(--font-size-base);
+  border-radius: var(--radius-base);
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--Color-Blue);
+}
