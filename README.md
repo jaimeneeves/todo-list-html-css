@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="#">
+    <img alt="babel" src="todo.png" width="546">
+  </a>
+</p>
+
 # Todo List em HTML/CSS
 
 Este repositório contém o código-fonte de um projeto de Todo List (Lista de Tarefas) desenvolvido com HTML e CSS. O objetivo deste projeto é demonstrar as habilidades básicas de desenvolvimento web, incluindo estruturação de conteúdo com HTML e estilização com CSS. É um excelente recurso para iniciantes que desejam aprender mais sobre desenvolvimento frontend.
