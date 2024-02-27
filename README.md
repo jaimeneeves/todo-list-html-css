@@ -21,7 +21,7 @@ O projeto consiste em uma aplicação web simples que permite aos usuários adic
 
 Para usar este projeto, siga estas etapas:
 
-1. Clone o repositório para sua máquina local usando `git clone https://github.com/seu-usuario/todo-list-html-css.git`
+1. Clone o repositório para sua máquina local usando `git clone https://github.com/jaimeneeves/todo-list-html-css.git`
 2. Abra o arquivo `index.html` em seu navegador para visualizar o projeto.
 
 Confira o design do projeto Todo List no Figma [aqui](https://www.figma.com/community/file/1175262836322989600/todo-list).
