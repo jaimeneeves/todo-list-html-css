@@ -1,0 +1,23 @@
+:root {
+  --Color-Gray-100: #F2F2F2;
+  --Color-Gray-200: #D9D9D9;
+  --Color-Gray-300: #808080;
+  --Color-Gray-400: #333333;
+  --Color-Gray-500: #262626;
+  --Color-Gray-600: #1A1A1A;
+  --Color-Gray-700: #0D0D0D;
+  --Color-Purple: #8284FA;
+  --Color-PurpleDark: #5E60CE;
+  --Color-Blue: #4EA8DE;
+  --Color-Blue-Dark: #1E6F9F;
+  --Color-Danger: #E25858;
+
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-large: 16px;
+  
+  --radius-base: 8px;
+
+  --space-sm: 8px;
+  --space-base: 16px;
+}
