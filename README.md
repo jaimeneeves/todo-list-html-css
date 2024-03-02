@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img alt="babel" src="todo.png" width="546">
+    <img alt="Logo" src="./images/todo.png" width="546">
   </a>
 </p>
 
